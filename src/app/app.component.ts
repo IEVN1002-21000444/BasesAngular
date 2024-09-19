@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'basesAngular';
+
+  doblenumero(x:number):number{
+    return x*2;
+  }
+
+  alumno={
+    nombre:'Juan',
+    edad: 25,
+    curso: 'Angular',
+    Fechainscripcion:new Date (),
+    pago: 2220
+  }
+
 }
+
