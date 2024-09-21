@@ -13,10 +13,10 @@ export class ProductListComponent {
       "Modelo":"Sentra",
       "Descripcion":"4 puertas",
       "Precio":20000,
-      "year":2022,
+      "Year":2022,
       "Marca":"Nissan",
       "Color":"Azul",
-      "ImagenURL":""
+      "ImagenURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZS5fd85iceH4N6MMAU14eR0DDUG-Id5uzhw&s"
 
     },
     {
@@ -24,10 +24,10 @@ export class ProductListComponent {
       "Modelo":"eveve",
       "Descripcion":"4 puertas",
       "Precio":22000,
-      "year":2021,
+      "Year":2021,
       "Marca":"Audi",
       "Color":"Rojo",
-      "ImagenURL":""
+      "ImagenURL":"https://media.gettyimages.com/id/170450723/es/foto/coche-deportivos.jpg?s=612x612&w=gi&k=20&c=VzvXrzC-T8knSHzEVuYDm-qEowIi0XCJwlItcL_dW0Y="
 
     },
     {
@@ -35,10 +35,10 @@ export class ProductListComponent {
       "Modelo":"Trueno",
       "Descripcion":"2 puertas",
       "Precio":20000,
-      "year":1982,
+      "Year":1982,
       "Marca":"Toyota",
       "Color":"Blanco",
-      "ImagenURL":""
+      "ImagenURL":"https://gascommunity.com/recordando-al-toyota-ae86-la-joya-del-drift/"
 
     }
   ]
