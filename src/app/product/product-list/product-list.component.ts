@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Productos } from '../productos';
 
 @Component({
   selector: 'app-product-list',
@@ -7,13 +8,22 @@ import { Component } from '@angular/core';
 })
 export class ProductListComponent {
 
-  productos:any[]=[
+  imagewidth:number=60;
+  imageMargin:number=2;
+  muestraImg:boolean=true;
+  listFilter:string=''
+
+  muestImg():void{
+    this.muestraImg=!this.muestraImg
+  }
+
+  productos:Productos[]=[
     {
       "productoID":1,
       "Modelo":"Sentra",
       "Descripcion":"4 puertas",
       "Precio":20000,
-      "Year":2022,
+      "Year":"Enero 04 2020",
       "Marca":"Nissan",
       "Color":"Azul",
       "ImagenURL":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZS5fd85iceH4N6MMAU14eR0DDUG-Id5uzhw&s"
@@ -24,7 +34,7 @@ export class ProductListComponent {
       "Modelo":"eveve",
       "Descripcion":"4 puertas",
       "Precio":22000,
-      "Year":2021,
+      "Year":"Julio 02 2020",
       "Marca":"Audi",
       "Color":"Rojo",
       "ImagenURL":"https://media.gettyimages.com/id/170450723/es/foto/coche-deportivos.jpg?s=612x612&w=gi&k=20&c=VzvXrzC-T8knSHzEVuYDm-qEowIi0XCJwlItcL_dW0Y="
@@ -35,10 +45,10 @@ export class ProductListComponent {
       "Modelo":"Trueno",
       "Descripcion":"2 puertas",
       "Precio":20000,
-      "Year":1982,
+      "Year":"septiembre 11 2002",
       "Marca":"Toyota",
       "Color":"Blanco",
-      "ImagenURL":"https://gascommunity.com/recordando-al-toyota-ae86-la-joya-del-drift/"
+      "ImagenURL":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Sprinter_Trueno_1600_GT_%28AE86%29.jpg/220px-Sprinter_Trueno_1600_GT_%28AE86%29.jpg"
 
     }
   ]
